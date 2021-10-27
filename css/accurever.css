@@ -1,0 +1,23 @@
+:root {
+    --black: #242424;
+    --blue: #0800FF;
+    --dark-black: #333;
+    --gray: #AAA;
+    --white: #FFF;
+    --aesthetic-blue: #6FCEFF;
+    --aesthetic-pink: #FF00FF;
+    --aesthetic-white: #F0F0F0;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 100vh;
+    height: 100%;
+}
+
+.yr-root {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
