@@ -45,7 +45,7 @@ html, body {
 
 .yr-hanger {
 	display: none;
-	justify-content: center;
+	justify-items: center;
 	align-items: center;
 	box-sizing: border-box;
 	margin: 1em 1em 0em 1em;
