@@ -10,7 +10,7 @@ OnClear = () => {
 }
 
 OnEnterColor = () => {
-	getLay = document.getElementsById("yr-root");
+	getLay = document.getElementById("yr-root");
 	getHangerText = document.getElementById("yr-hanger-text").value;
 	setHanger = document.getElementById("yr-hanger");
 	
