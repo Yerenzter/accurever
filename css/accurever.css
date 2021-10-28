@@ -1,9 +1,9 @@
 :root { 
-	--black: #242424;
+    --black: #242424;
     --blue: #0800FF;
     --dark-black: #333;
     --gray: #AAA;
-	--transparent: #00000000;
+    --transparent: #00000000;
     --white: #FFF;
     --aesthetic-blue: #6FCEFF;
     --aesthetic-pink: #FF00FF;
@@ -38,7 +38,7 @@ html, body {
 .yr-root {
 	display: grid;
 	justify-items: center;
-	align-content: center;
+	align-items: center;
 	min-width: clamp(10vw, 100vw, 100vw);
 	height: 100vh;
 }
