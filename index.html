@@ -14,7 +14,7 @@
 		src: url("fonts/Poppins/Poppins-Black.otf");
  	    }
 
-	    @font-face {\
+	    @font-face {
 		font-family: Poppins Black Italic;
 		src: url("fonts/Poppins/Poppins-BlackItalic.otf");
  	    }
@@ -102,21 +102,21 @@
     </head>
     <body>
 	<div class="yr-root" id="yr-root">
-		<div class="yr-hanger" id="yr-hanger">
-			<input type="text" id="yr-hanger-text" placeholder="Enter a color">
-			<input type="button" id="yr-btn-color" value="Enter" onclick="OnEnterColor()">
-		</div>
+	    <div class="yr-hanger" id="yr-hanger">
+                <input type="text" id="yr-hanger-text" placeholder="Enter a color">
+		<input type="button" id="yr-btn-color" value="Enter" onclick="OnEnterColor()">
+            </div>
 	    <div class="yr-header">
-			<h1>AccuRever</h1>
-			<h3>The faster, more accurate and smarter way to reverse your text just in time made by Yerenzter.</h3>
+	        <h1>AccuRever</h1>
+	        <h3>The faster, more accurate and smarter way to reverse your text just in time made by Yerenzter.</h3>
 	    </div>
 	    <div class="yr-body">
-			<div class="yr-input">
+	        <div class="yr-input">
 				<input type="text" placeholder="Enter your text here" id="yr-text" oninput="OnShowClearBtn()">
 				<input type="button" id="yr-clear" onclick="OnClear()" value="x">
-			</div>
-			<input type="button" id="yr-submit" value="Reverse" onclick="OnResult()">
-			<p id="yr-result">...</p>
+                </div>
+                <input type="button" id="yr-submit" value="Reverse" onclick="OnResult()">
+	        <p id="yr-result">...</p>
 	    </div>
 	    <div class="yr-footer">
 		<small>Yerenzter &copy;2020</small>
